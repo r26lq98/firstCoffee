@@ -57,3 +57,10 @@ header._Header {
 .content-header ._Photo img {
   width: 65vw;
 }
+.main-names {
+  background: olive;
+  z-index: 9;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
