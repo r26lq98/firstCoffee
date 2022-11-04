@@ -1,5 +1,6 @@
 @import url(../../../assets/css/_min.css);
 @import url(header.css);
+@import url(navbar.css);
 @font-face {
     font-family: 'Anton';
     src: url('../fontFace/Anton/Anton-Regular.eot');

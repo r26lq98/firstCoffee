@@ -1,6 +1,6 @@
 const nav = document.querySelector('nav'),
-btn_nv = nav.querySelector("button._burger"),
-btn_x = nav.querySelector("button.close")
+btn_nv = nav.querySelector("button._Bars"),
+btn_x = nav.querySelector("button.close-bars")
 navLeft = nav.querySelector(".nav-left"),
 _menu = nav.querySelector("ul.main-menu");
 
