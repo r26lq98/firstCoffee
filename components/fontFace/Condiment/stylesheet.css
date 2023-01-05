@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Condiment';
+    src: url('Condiment-Regular.eot');
+    src: local('Condiment'), local('Condiment-Regular'),
+        url('Condiment-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Condiment-Regular.woff2') format('woff2'),
+        url('Condiment-Regular.woff') format('woff'),
+        url('Condiment-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

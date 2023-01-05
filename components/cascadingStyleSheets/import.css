@@ -1,2 +1,25 @@
 @import url(../../../assets/css/_min.css);
 @import url(header.css);
+@import url(navbar.css);
+@font-face {
+    font-family: 'Anton';
+    src: url('../fontFace/Anton/Anton-Regular.eot');
+    src: local('Anton Regular'), local('Anton-Regular'),
+        url('../fontFace/Anton/Anton-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fontFace/Anton/Anton-Regular.woff2') format('woff2'),
+        url('../fontFace/Anton/Anton-Regular.woff') format('woff'),
+        url('../fontFace/Anton/Anton-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Condiment';
+    src: url('../fontFace/Condiment/Condiment-Regular.eot');
+    src: local('Condiment'), local('Condiment-Regular'),
+        url('../fontFace/Condiment/Condiment-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fontFace/Condiment/Condiment-Regular.woff2') format('woff2'),
+        url('../fontFace/Condiment/Condiment-Regular.woff') format('woff'),
+        url('../fontFace/Condiment/Condiment-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -29,9 +29,10 @@ header._Header {
 }
 ._Header .content-header::before {
   width: 55vw;
-  height: 75vh;
+  height: 80vh;
   background: #279b7c;
-  right: 0;
+  right: -10px;
+  top: -20px;
   content: '';
   position: absolute;
   display: inline-block;
@@ -42,10 +43,11 @@ header._Header {
   text-orientation: mixed;
   writing-mode: vertical-rl;
   font-size: 3.7rem;
-  font-weight: bold;
+  /* font-weight: bold; */
   padding: 0;
   margin: 0;
   font-family: 'Condiment', cursive;
+  /* letter-spacing: .2rem; */
 }
 .content-header h2:nth-child(1){
   /* background: orange; */
@@ -55,7 +57,6 @@ header._Header {
 .content-header h2:nth-child(2){
   transform: rotate(360deg);
   /* background: red; */
-  /* color: #fff; */
   grid-area: ends;
 }
 .content-header ._Photo {
