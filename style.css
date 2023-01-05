@@ -1,0 +1,73 @@
+.container {
+    display: grid;
+    width: 100vw;
+    height: auto;
+    color: #000;
+    background: orangered;
+    grid-template-columns: .3fr 2fr 1.5fr;
+    grid-template-rows: 100vh 100vh 100vh 300px;
+    grid-auto-columns: auto;
+    grid-auto-rows: 100vh;
+    grid-template-areas: 
+    "sidebar header _photo"
+    "sidebar about _photo"
+    "sidebar skills _photo"
+    "sidebar projects projects"
+    "sidebar gallery gallery"
+    "sidebar quotes quotes"
+    "sidebar contact contact"
+    "sidebar testimonial testimonial"
+    "footer footer footer"
+    ;
+    padding: 0;
+}
+sidebar {
+  background: darkgreen;
+  grid-area: sidebar;
+}
+header {
+  background: gold;
+  grid-area: header;
+}
+._photo {
+  background: red;
+  grid-area: _photo;
+  /* position: sticky;
+   top: 0; */
+}
+.about {
+  background: darkred;
+  grid-area: about;
+}
+.skills {
+  background: indianred;
+  grid-area: skills;
+}
+.projects {
+  background: green;
+  grid-area: projects;
+}
+.services {
+  background: yellowGreen;
+  grid-area: services;
+}
+.gallery {
+  background: olive;
+  grid-area: gallery;
+}
+.quotes {
+  background: olivedrab;
+  grid-area: quotes;
+}
+.contact {
+  background: greenyellow;
+  grid-area: contact;
+}
+.testimonial {
+  background: skyblue;
+  grid-area: testimonial;
+}
+footer {
+  background: brown;
+  grid-area: footer;
+}
