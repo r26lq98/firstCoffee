@@ -22,6 +22,15 @@
     ;
     padding: 0;
 }
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
 sidebar {
   background: darkgreen;
   grid-area: sidebar;

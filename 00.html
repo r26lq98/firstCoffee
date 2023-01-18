@@ -8,13 +8,7 @@
   <link rel="stylesheet" href="assets/css/_min.css" media="all">
   <link rel="stylesheet" href="style.css" type="text/css" media="all" />
   <style>
-    .item {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-weight: bold;
-      font-size: 3rem;
-    }
+    
   </style>
 </head>
 <body>
@@ -33,10 +27,11 @@
     <footer>footer</footer>
   </div>
   <script type="text/javascript" charset="utf-8">
+  (function(){
     const container = document.querySelector('.container');
-    container.children.forEach(item => {
-      item.classList.add('item');
-    });
+    let [...item] = container.children;
+    item.forEach( item => item.classList.add('item'));
+  })();
   </script>
 </body>
 </html>
